@@ -1,0 +1,203 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #f1c40f;
+}
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    border-bottom: 2px solid #4ca1af;
+    padding-bottom: 5px;
+}
+.projeto {
+    background: #ecf0f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.projeto img {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #4ca1af;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #2c3e50;
+}
+
+#redes-sociais {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 800px; 
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 1vh 2vw;
+    border: 0.2vh solid #ddd;
+    border-radius: 2vh;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    font-size: 2.5vh;
+    transition: background 0.3s, color 0.3s;
+}
+
+.social-button i {
+    margin-right: 1vw;
+}
+
+.social-button:hover {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+#contato {
+    padding: 4vh;
+    margin: 40px auto; 
+    max-width: 800px; 
+    background: #fff;
+    border-radius: 4vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 2vh;
+    border: 0.2vw solid #ddd;
+    border-radius: 4vh;
+    background: #f9f9f9;
+}
+
+.contato-item i {
+    font-size: 4vh;
+    color: #2c3e50;
+}
+
+.contato-item h3 {
+    margin: 0;
+}
+
+.contato-item a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.contato-item a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+}
+li img {
+    width: 24px;
+    height: 24px;
+}
+
+#TCC figure {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#TCC img {
+    width: 100vw;
+    max-width: 750px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#TCC figcaption {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
