@@ -34,7 +34,7 @@ Essas são as linguagens que estou estudando e aplicando em projetos práticos.
 
 Este projeto foi realizado como parte do exercício de PBE1, onde simulei a criação de uma tela de cadastro para uma clínica médica. O objetivo era criar uma interface simples e funcional para o cadastro de pacientes e médicos.
 
-![Tela de Cadastro para Clínica Médica](image1.png)
+![Tela de Cadastro para Clínica Médica](image1.PNG)
 
 ### Projeto 2: Site de Loja de Roupas
 
@@ -46,7 +46,7 @@ Neste projeto, desenvolvi um site modelo para uma loja de roupas. A página exib
 
 Esse projeto é uma página de cadastro para uma escola, onde os dados dos alunos, professores, turmas e disciplinas são organizados. Ele foi desenvolvido para aplicar os conceitos de criação de sistemas com base em banco de dados.
 
-![Página de Cadastro de Escola](image4.png)
+![Página de Cadastro de Escola](image4.PNG)
 
 ## TCC
 
