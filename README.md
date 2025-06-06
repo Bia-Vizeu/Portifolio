@@ -7,15 +7,13 @@ Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre mim, o q
 - [Sobre Mim](#sobre-mim)
 - [Aprendendo Sobre](#aprendendo-sobre)
 - [Projetos](#projetos)
-  - [Projeto 1: Tela de Cadastro para Clínica Médica](#projeto-1-tela-de-cadastro-para-clínica-médica)
-  - [Projeto 2: Site de Loja de Roupas](#projeto-2-site-de-loja-de-roupas)
-  - [Projeto 3: Página de Cadastro de Escola](#projeto-3-página-de-cadastro-de-escola)
+  - [Projeto 1: Protótipo no Figma](#projeto-1-protótipo-figma)
 - [TCC](#tcc)
 - [Contato](#contato)
 
 ## Sobre Mim
 
-Meu nome é Beatriz Gabrielle Vizeu de Salles, tenho 16 anos e estou no 3° Ano do Ensino Médio. Atualmente, estou cursando T.I. no SENAI, mas meu plano futuro é seguir a área de Medicina. A tecnologia me encanta, e este portfólio reflete o conhecimento adquirido ao longo do curso de T.I.
+Meu nome é Beatriz Gabrielle Vizeu de Salles, tenho 17 anos, estou no 3° Ano do Ensino Médio e atualmente curso T.I. no SENAI. Embora meu interesse pela tecnologia seja evidente, meu sonho futuro é cursar Estética e unir essas duas áreas em benefício da beleza.
 
 ## Aprendendo Sobre
 
@@ -30,23 +28,12 @@ Essas são as linguagens que estou estudando e aplicando em projetos práticos.
 
 ## Projetos
 
-### Projeto 1: Tela de Cadastro para Clínica Médica
+### Projeto 1: Protótipo no Figma
 
-Este projeto foi realizado como parte do exercício de PBE1, onde simulei a criação de uma tela de cadastro para uma clínica médica. O objetivo era criar uma interface simples e funcional para o cadastro de pacientes e médicos.
+Protótipo do Figma sobre uma lojinha de flores.
 
-![Tela de Cadastro para Clínica Médica](image1.PNG)
+![Tela do Figma](image1.png)
 
-### Projeto 2: Site de Loja de Roupas
-
-Neste projeto, desenvolvi um site modelo para uma loja de roupas. A página exibe produtos, incluindo nome, descrição e preço, com um layout simples e eficiente.
-
-![Site de Loja de Roupas](image2.png)
-
-### Projeto 3: Página de Cadastro de Escola
-
-Esse projeto é uma página de cadastro para uma escola, onde os dados dos alunos, professores, turmas e disciplinas são organizados. Ele foi desenvolvido para aplicar os conceitos de criação de sistemas com base em banco de dados.
-
-![Página de Cadastro de Escola](image4.PNG)
 
 ## TCC
 
