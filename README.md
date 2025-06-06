@@ -32,7 +32,7 @@ Essas são as linguagens que estou estudando e aplicando em projetos práticos.
 
 Protótipo do Figma sobre uma lojinha de flores.
 
-![Tela do Figma](image1.png)
+![Tela do Figma](imagefig.png)
 
 
 ## TCC
