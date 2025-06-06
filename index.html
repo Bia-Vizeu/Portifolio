@@ -1,92 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Pessoal</title>
+    <title>Portfólio Beatriz Vizeu</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Beatriz Gabrielle Vizeu de Salles</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#aprendendo">Aprendendo Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#TCC">TCC</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="profile">
+                <img src="eu.png" alt="Beatriz Vizeu" class="profile-img">
+                <div class="profile-text">
+                    <h1>Beatriz Gabrielle Vizeu de Salles</h1>
+                    <p class="title">Estudante de TI | Aspirante à Estética</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#aprendendo">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#TCC">TCC</a></li>
+                    <li><a href="#contato" class="btn-contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section id="sobre">
-        <h2>Sobre Mim</h2>
-        <p>Tenho 16 anos, estou no 3° Ano do Ensino Médio, estou cursando T.I. no SENAI, mas no futuro pretendo cursar medicina.</p>
-    </section>
-    
-    <section id="Stack's">
-        <h2>Aprendendo sobre...</h2>
-        <ul>
-            <li><img src="html-icon.png" alt="HTML Icon"> HTML</li>
-            <li><img src="css-icon.png" alt="CSS Icon"> CSS</li>
-            <li><img src="js-icon.png" alt="JavaScript Icon"> JAVA SCRIPT</li>
-            <li><img src="sql-icon.png" alt="SQL Icon"> SQL</li>
 
-        </ul>
-    </section>
-    
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <div class="projeto">
-            <h3>Projeto 1</h3>
-            <p>Foi solicitado pelo professor na aula de PBE1 a simulação de uma tela de cadastro para uma Clínica Média.</p>
-            <img src="image1.PNG" alt="1" />
-        </div>
-        <div class="projeto">
-            <h3>Projeto 2</h3>
-            <p>Modelo de Site para uma loja de roupa, contendo o nome, descrição e o preço do produto.</p>
-            <img src="image2.png" alt="2" />
-        </div>
-        <div class="projeto">
-            <h3>Projeto 3</h3>
-            <p>Página de Cadastro de uma escola, contendo Alunos, Professores, Turmas e Disciplinas.</p>
-            <img src="image4.PNG" alt="4" />
-        </div>
-    </section>
-
-    <section id="TCC">
-        <h2>Sobre meu TCC</h2>
-        <p>A programação é essencial no desenvolvimento tecnológico atual, com impacto em diversas áreas. <br> 
-            O meu TCC tem como objetivo explorar uma área diferente: a floricultura. O trabalho aborda os conceitos e a implementação prática de soluções para criar um sistema que ajude uma floricultura a organizar, classificar e nomear suas plantas, fornecendo informações como nome, espécie, classificação botânica e imagem ilustrativa. <br>
-            <br>Essa ferramenta permitirá melhorar os processos internos da loja, evitar erros na identificação das espécies e oferecer um atendimento mais rápido e personalizado, resultando em maior satisfação dos clientes e maior eficiência operacional. 
-            <br><br>Serão discutidas as linguagens e ferramentas utilizadas, além dos desafios enfrentados durante o desenvolvimento. O trabalho visa demonstrar o conhecimento adquirido no curso de PSOF e também contribuir para a obtenção de uma boa nota.</p>
-            <img src="image3.png" alt="3" />
+    <main class="container">
+        <section id="sobre" class="section">
+            <div class="section-header">
+                <h2>Sobre Mim</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="content">
+                <p>Tenho 17 anos, estou no 3° Ano do Ensino Médio e atualmente curso T.I. no SENAI. Embora meu interesse
+                    pela tecnologia seja evidente, meu sonho futuro é cursar Estética e unir essas duas áreas em
+                    benefício da beleza.</p>
+                <p>Acredito que a interseção entre tecnologia e estética será cada vez mais importante, e pretendo fazer
+                    parte dessa evolução.</p>
+            </div>
         </section>
-    
-    <div class="contato-info">
-        <div class="contato-item">
-            <i class="fas fa-envelope"></i>
-            <div>
-                <h3>E-mail:</h3>
-                <a href="mailto:bia.vizeu.salles@gmail.com">bia.vizeu.salles@gmail.com</a>
+
+        <section id="aprendendo" class="section">
+            <div class="section-header">
+                <h2>Habilidades Técnicas</h2>
+                <div class="divider"></div>
             </div>
-        </div>
-        <div class="contato-item">
-            <i class="fab fa-github"></i>
-            <div>
-                <h3>GitHub:</h3>
-                <a href="https://github.com/Bia-Vizeu">GitHub</a>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <p>Estruturação semântica de páginas web</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <p>Estilização e design responsivo</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e lógica de programação</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL</h3>
+                    <p>Banco de dados e consultas estruturadas</p>
+                </div>
             </div>
-        </div>
-    </div>
-    
-    
-    
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="section-header">
+                <h2>Projetos Acadêmicos</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="image1.png" alt="Projeto Clínica Médica" class="project-img">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Projeto Figma</h3>
+                        <p>Protótipo do Figma sobre uma lojinha de flores.</p>
+                        <a href="#" class="project-link">Ver Detalhes →</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="image3.png" alt="Projeto Loja de Roupas" class="project-img">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>TCC</h3>
+                        <p>Casa Floralles.</p>
+                        <a href="#" class="project-link">Ver Detalhes →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="TCC" class="section">
+            <div class="section-header">
+                <h2>Trabalho de Conclusão de Curso</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="tcc-content">
+                <div class="tcc-text">
+                    <h3>Sistema de Gerenciamento para Floricultura</h3>
+                    <p>Meu TCC explora a aplicação de soluções tecnológicas no setor de floricultura, desenvolvendo um
+                        sistema para organização, classificação e identificação de plantas.</p>
+
+                    <div class="tcc-features">
+                        <div class="feature">
+                            <i class="fas fa-seedling"></i>
+                            <p>Catálogo digital de espécies vegetais</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tags"></i>
+                            <p>Classificação botânica detalhada</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-search"></i>
+                            <p>Sistema de busca e filtros</p>
+                        </div>
+                    </div>
+
+                    <p>O objetivo é melhorar a eficiência operacional e o atendimento ao cliente, reduzindo erros na
+                        identificação das espécies e agilizando os processos internos.</p>
+                </div>
+                <div class="tcc-visual">
+                    <img src="image3.png" alt="TCC Floricultura" class="tcc-img">
+                    <div class="tech-badges">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>SQL</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:bia.vizeu.salles@gmail.com">bia.vizeu.salles@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Bia-Vizeu" target="_blank">github.com/Bia-Vizeu</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Sua Mensagem" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2025 Beatriz Vizeu. Todos os direitos reservados.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>BV</span>
+                    <p>Beatriz Vizeu</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#aprendendo">Habilidades</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#TCC">TCC</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Bia-Vizeu" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:bia.vizeu.salles@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Beatriz Vizeu. Todos os direitos reservados.</p>
+            </div>
+        </div>
     </footer>
-    
-    <script src="script.js"></script>
 </body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
 </html>
